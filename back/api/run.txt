@@ -1,0 +1,3 @@
+cd domains
+cd api
+php artisan serve

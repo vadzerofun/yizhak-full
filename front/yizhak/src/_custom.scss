@@ -1,0 +1,15 @@
+// Overwrite bootstrap
+
+@import "../node_modules/bootstrap/scss/functions"; 
+@import "../node_modules/bootstrap/scss/variables";
+
+$success: #C4D7B2; // set the $primary variable
+
+// merge with existing $theme-colors map
+$theme-colors: map-merge($theme-colors, (
+  "success": $success
+));
+
+// set changes
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+

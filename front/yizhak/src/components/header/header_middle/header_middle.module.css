@@ -1,0 +1,10 @@
+.header_middle {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search_cart {
+  display: flex;
+}

@@ -1,0 +1,35 @@
+.adminSidebar {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 50px;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  flex: 0 0 25%;
+  background-color: #C4D7B2;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.adminSidebar li:hover {
+  background-color: #E1ECC8;
+}
+
+.adminSidebar li:first-child {
+  border-top: 2px solid #A0C49D;
+}
+.adminSidebar li:last-child {
+  border-bottom: 2px solid #A0C49D;
+}
+
+.adminTable,
+.adminTableSelected {
+  display: block;
+  text-decoration: none;
+  color: #555555;
+  padding: 0.5rem 0 0.5rem 3rem;
+}
+
+.adminTableSelected {
+  background-color: #A0C49D;
+}

@@ -1,0 +1,33 @@
+.cart {
+   padding-top: 50px;
+   padding-bottom: 50px;
+   display: flex;
+   gap: 50px;
+}
+
+.cartGallery {
+   flex: 0 1 100%;
+   overflow: hidden;
+}
+
+.cartGallery img {
+   width: 100%;
+   max-width: fit-content;
+}
+
+.cartInfo {
+   flex: 1 1 100%;
+   display: grid;
+   row-gap: 1rem;
+   justify-items: start;
+   align-items: start;
+   align-content: start;
+}
+.infoLine {
+   height: 1px;
+   background-color: #A0C49D;
+   width: 100%;
+}
+.paragraph {
+   text-align: justify;
+}

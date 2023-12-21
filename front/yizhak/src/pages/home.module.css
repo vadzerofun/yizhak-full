@@ -1,0 +1,22 @@
+.home {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.sampleSwiper {
+   margin-bottom: 50px;
+   
+}
+.sampleSwiper [class^="swiper-wrapper"] {
+   align-items: center;
+}
+
+.productsSlider {
+}
+.productsSlider [class^="swiper-wrapper"]{
+   padding-top: 30px;
+   padding-bottom: 100px;
+   
+}
+.productsSlider [class^="swiper-button-prev"] {
+   
+}

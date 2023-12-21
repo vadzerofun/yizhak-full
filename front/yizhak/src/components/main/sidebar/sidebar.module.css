@@ -1,0 +1,48 @@
+.sidebar {
+   
+   margin-bottom: 0;
+   flex: 0 0 25%;
+   background-color: #C4D7B2;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.sidebarCategories {
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+   padding-left: 0;
+   padding-top: 50px;   
+   font-size: 1.5rem;
+}
+
+.sidebarCategories li:hover {
+   background-color: #E1ECC8;
+}
+
+.sidebarCategories li:first-child {
+   border-top: 2px solid #A0C49D;
+}
+.sidebarCategories li:last-child {
+   border-bottom: 2px solid #A0C49D;
+}
+
+.category,
+.categorySelected {
+   display: block;
+   text-decoration: none;
+   color: #555555;
+   padding: 0.5rem 0 0.5rem 3rem;
+}
+
+.categorySelected {
+   background-color: #A0C49D;
+}
+
+.category {
+}
+
+.filtersGroup {
+   padding-left: 3rem;
+}
